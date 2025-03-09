@@ -1,6 +1,6 @@
 # SpaceX Launch Tracker 🚀  
 
-![App Demo](https://s4.gifyu.com/images/bb6RZ.gif) 
+![App Demo](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExajJuY25kbGp6NXZyb3d2cTUweDU0NTRlNW53c3Z6cXdiOHljZTY0OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1WYdTVlHUgclTnUvvH/giphy.gif) 
 
 ## Setup Instructions
 
