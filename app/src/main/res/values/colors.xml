@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <!-- SpaceX UI theme colors -->
+    <color name="spacex_background">#000000</color>
+    <color name="spacex_card_background">#121212</color>
+    <color name="spacex_text_primary">#FFFFFF</color>
+    <color name="spacex_text_secondary">#AAAAAA</color>
+    <color name="spacex_accent">#005288</color>
+    <color name="spacex_divider">#2A2A2A</color>
+</resources>

@@ -1,0 +1,57 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.spacex.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_details"
+            app:destination="@id/launchDetailsFragment" />
+        <action
+            android:id="@+id/action_home_to_launches"
+            app:destination="@id/launchesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/launchDetailsFragment"
+        android:name="com.example.spacex.ui.LaunchDetailsFragment"
+        android:label="Launch Details"
+        tools:layout="@layout/fragment_launch_details">
+        <argument
+            android:name="launchId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/launchesFragment"
+        android:name="com.example.spacex.ui.LaunchesFragment"
+        android:label="Launches"
+        tools:layout="@layout/fragment_launches">
+        <action
+            android:id="@+id/action_launchesFragment_to_launchDetailsFragment"
+            app:destination="@id/launchDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/upcomingLaunchesFragment"
+        android:name="com.example.spacex.ui.UpcomingLaunchesFragment"
+        android:label="Upcoming Launches">
+        <action
+            android:id="@+id/action_upcomingLaunchesFragment_to_launchDetailsFragment"
+            app:destination="@id/launchDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pastLaunchesFragment"
+        android:name="com.example.spacex.ui.PastLaunchesFragment"
+        android:label="Past Launches">
+        <action
+            android:id="@+id/action_pastLaunchesFragment_to_launchDetailsFragment"
+            app:destination="@id/launchDetailsFragment" />
+    </fragment>
+</navigation>
