@@ -1,3 +1,7 @@
+# SpaceX Launch Tracker 🚀  
+
+![App Demo](https://s4.gifyu.com/images/bb6RZ.gif) 
+
 ## Setup Instructions
 
 1. Clone the repository:
