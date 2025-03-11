@@ -6,7 +6,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/spacex-launches.git
+   git clone https://github.com/vishalpatel011/SpaceX
    cd spacex-launches
 
 Open the project in Android Studio.  
