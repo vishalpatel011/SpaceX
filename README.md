@@ -7,7 +7,7 @@
 1. Clone the repository:
    ```bash
    git clone https://github.com/vishalpatel011/SpaceX
-   cd spacex-launches
+   cd SpaceX
 
 Open the project in Android Studio.  
 Build the project to download dependencies:  
